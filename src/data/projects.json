@@ -1,5 +1,34 @@
 [
   {
+    "title": "Algorand RWA Dashboard",
+    "takeaway": "Developed a dashboard to showcase Algorand RWA activity",
+    "description": "This project analyzes the Algorand RWA onchain activity through different projects and branches, from micropayments to loyalty programs.",
+    "sparklineData": [
+      14,
+      16,
+      22,
+      28,
+      32,
+      40,
+      45,
+      52,
+      67
+    ],
+    "techStack": [
+      "Clickhouse SQL",
+      "dbt",
+      "Next.js",
+      "APIs"
+    ],
+    "skills": [
+      "SQL",
+      "Data Analysis",
+      "On-Chain Analysis",
+      "Crypto"
+    ],
+    "source": "https://algorand-rwa-dashboard.vercel.app/"
+  },
+  {
     "title": "$FOLKS Dashboard",
     "takeaway": "Developed a dashboard to showcase $FOLKS token launch",
     "description": "This project analyzes the $FOLKS token launch as a crosschain token which was lauched with Wormhole NTT to transfer seamless between chains.",
