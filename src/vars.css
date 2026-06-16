@@ -1,5 +1,5 @@
 :root {
-    /* Dark Tech Theme Colors */
+    /* Dark Tech Theme Colors (default) */
     --color-bg: #0C111C;
     --color-bg-secondary: #141B2D;
     --color-text: #E4E9F0;
@@ -10,6 +10,13 @@
     --color-dark: #060A12;
     --color-card-bg: rgba(20, 27, 45, 0.6);
     --color-card-border: rgba(0, 238, 242, 0.2);
+
+    /* Themed surfaces (so light/dark both look right) */
+    --color-navbar-bg: rgba(12, 17, 28, 0.9);
+    --color-surface-subtle: rgba(0, 238, 242, 0.05);
+    --color-surface-subtle-strong: rgba(0, 238, 242, 0.1);
+    --color-logo-bg: rgba(255, 255, 255, 0.05);
+    --color-on-accent: #060A12;
 
     /* Glow Effects */
     --glow-primary: 0 0 20px rgba(0, 238, 242, 0.4);
@@ -37,4 +44,33 @@
     /* Fonts */
     --font-roboto: "Roboto";
     --font-outfit: "Outfit";
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --color-bg: #F4F7FB;
+    --color-bg-secondary: #FFFFFF;
+    --color-text: #0C111C;
+    --color-text-secondary: #475569;
+    --color-primary: #0891B2;
+    --color-secondary: #2563EB;
+    --color-accent: #0E7490;
+    --color-dark: #FFFFFF;
+    --color-card-bg: rgba(255, 255, 255, 0.75);
+    --color-card-border: rgba(8, 145, 178, 0.25);
+
+    --color-navbar-bg: rgba(255, 255, 255, 0.85);
+    --color-surface-subtle: rgba(8, 145, 178, 0.06);
+    --color-surface-subtle-strong: rgba(8, 145, 178, 0.12);
+    --color-logo-bg: rgba(12, 17, 28, 0.04);
+    --color-on-accent: #FFFFFF;
+
+    --glow-primary: 0 0 20px rgba(8, 145, 178, 0.22);
+    --glow-secondary: 0 0 20px rgba(37, 99, 235, 0.22);
+    --glow-strong: 0 0 28px rgba(8, 145, 178, 0.3), 0 0 56px rgba(37, 99, 235, 0.18);
+}
+
+/* Smooth transition when switching themes */
+body {
+    transition: background-color var(--transition-normal), color var(--transition-normal);
 }

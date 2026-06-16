@@ -1,9 +1,22 @@
 [
   {
+  "role": "Analytics Engineer",
+  "organisation": "Nansen",
+  "startDate": "Apr, 2026",
+  "endDate": "Present",
+  "experiences": [
+    "Own the end-to-end instrumentation and event tracking for Nansen's trading product, defining the data layer that captures how the product is used and where it can improve.",
+    "Build dbt-based data models, the core of the analytics stack, that transform raw product and on-chain activity across EVM chains, Hyperliquid, and prediction markets into reliable, query-ready datasets.",
+    "Turn product and trading data into clear dashboards and analytics that drive product and business decisions for the team and its users.",
+    "Work AI-natively, leveraging coding agents to ship data models and analysis faster."
+  ],
+  "imageSrc": "history/nansen.png"
+},
+  {
     "role": "Data Analyst",
     "organisation": "Algorand Foundation",
     "startDate": "Jul, 2024",
-    "endDate": "Present",
+    "endDate": "Mar, 2026",
     "experiences": [
       "Conducted comprehensive on-chain and off-chain data analyses to identify key factors driving crypto market trends, token performance, and ecosystem growth, delivering actionable insights to support strategic decision-making.",
       "Designed and maintained end-to-end, data-driven dashboards tracking KPIs, OKRs, and ecosystem metrics across major Algorand dApps, enhancing visibility and decision-making through clear, narrative-driven visualizations.",

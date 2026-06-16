@@ -60,11 +60,12 @@ export const Hero = () => {
             "Extracting actionable insights from onchain data"
           </p>
           <p className={styles.description}>
-            I'm a seasoned data scientist and blockchain enthusiast, specializing in
-            blockchain analytics and onchain intelligence. With expertise in
-            computational mathematics, advanced analytics, and blockchain technologies,
-            I transform complex data into strategic foresight. From onchain analysis to offchain data, I deliver
-            institutional-grade insights that drive impactful decisions.
+            I'm an analytics engineer working at the intersection of trading and
+            on-chain data. I build the instrumentation and data models that turn raw
+            blockchain and product activity into clear, decision-ready intelligence.
+            My background combines a foundation in computational mathematics with
+            quantitative-finance rigor and crypto-native fluency, so I can translate
+            complex data into insight that teams and traders act on.
           </p>
           <a href="mailto:llopartdata@gmail.com" className={styles.contactBtn}>
             Let's Connect

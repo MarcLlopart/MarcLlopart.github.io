@@ -29,6 +29,18 @@
     }(window.location))
   </script>
   <!-- End Single Page Apps for GitHub Pages -->
+  <!-- Theme init: apply saved or system theme before paint to avoid flash -->
+  <script type="text/javascript">
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
   </head>
   <body>
     <div id="root"></div>

@@ -22,6 +22,48 @@
             }
         ]
     },
+    "predictionMarkets": {
+        "description": "On-chain analytics for prediction-market protocols — tracking volume, liquidity, trader behaviour, and market resolution.",
+        "kpis": [
+            {
+                "label": "Market Volume Tracking",
+                "value": 92
+            },
+            {
+                "label": "Liquidity & Open Interest",
+                "value": 88
+            },
+            {
+                "label": "Trader Behaviour Analysis",
+                "value": 85
+            },
+            {
+                "label": "Resolution & Settlement",
+                "value": 80
+            }
+        ]
+    },
+    "defiTrading": {
+        "description": "On-chain analytics for DeFi trading — Hyperliquid perps, spot markets, cross-chain swaps, and bridging flows.",
+        "kpis": [
+            {
+                "label": "Hyperliquid Perps",
+                "value": 88
+            },
+            {
+                "label": "Spot Trading",
+                "value": 85
+            },
+            {
+                "label": "Cross-Chain Swaps",
+                "value": 83
+            },
+            {
+                "label": "Bridging Flows",
+                "value": 80
+            }
+        ]
+    },
     "evm": [
         {
             "name": "Ethereum",
